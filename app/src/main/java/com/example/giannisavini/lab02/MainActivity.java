@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // Creazione dei riferimento con gli elementi della view tramite l'id univoco assegnatoli
-        lsvsStates = (ListView) findViewById(R.id.lsv_state);
+        lsvsStates = (ListView) findViewById(R.id.lsv_states);
         //List<State> states = new ArrayList<>();
         String[] states = {"Italia", "Regno Unito", "Francia", "Germania", "Spagana", "Svizzera",
                             "Belgio", "Portogallo", "Austria", "Norvegia", "Svezia", "Finlandia"};
