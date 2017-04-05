@@ -64,7 +64,8 @@ public class MainActivity extends AppCompatActivity {
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
                 String itemClicked = (String) parent.getItemAtPosition(position);
                 /**
-                 * Costrutto per la creazione di un AlertDialog. Tramite la sottoclasse Builder è possibile definire diversi aspetti del dialog.
+                 * Costrutto per la creazione di un AlertDialog. Tramite la sottoclasse Builder (che vuole come parametro un riferimento ad activity)
+                 * è possibile definire diversi aspetti del dialog.
                  * Le proprietà solitamente definite sono il titolo e il messaggio da mostrare all'utente.
                  * E' inoltre possibile avere dei bottoni per permettere all'utente di interagire con il dialog. I bottoni possono essere definiti
                  * "positivi" o "negativi"; in base a questa classificazione il sistema adotterà delle particolari scelte grafice e strutturali.
